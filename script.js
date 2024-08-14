@@ -6,19 +6,19 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado: "Você apoio o racismo?",
         alternativas: [
             {
-                texto: "Alternativa 1 da pergunta 1",
+                texto: "Sim, eu apoio o movimento racista",
                 afirmacao: [
-                    "afirmacao 1",
+                    "Vocẽ realmente já ouviu falar o que é racismo? A sua história e quantas milhares de pessoas foram prejudicadas e mortas? ",
                     "afirmacao 2"
                     ]
             },
             {
-                texto: "Alternativa 2 da pergunta 1",
+                texto: "Não, sou contra o movimento racista",
                 afirmacao: [
-                    "afirmacao 1",
+                    " Que legal! concordamos que o  racismo não é uma coisa boa",
                     "afirmacao 2"
                     ]
             }           
