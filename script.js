@@ -45,10 +45,10 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "O que caracteriza o racismo estrutural na sociedade?",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 3",
+                texto:"Desigualdade raciais",
                 afirmacao: [
                     "afirmacao 1",
                     "afirmacao 2"
