@@ -26,19 +26,19 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "Principal dano causado pelo racismo",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 2",
+                texto:"Fortalece a autoestima das vitimas",
                 afirmacao: [
-                    "afirmacao 1",
+                    "Racismo enfraquece a autoestima, perpetuando sentimentos de inferioridade",
                     "afirmacao 2"
                     ]
             },
             {
-                texto: "Alternativa 2 da pergunta 2",
+                texto: "Contribui para a exclusão social e marginalização de grupos minoridarios",
                 afirmacao: [
-                    "afirmacao 1",
+                    "Reforça a desigualdade e esteriótipos discriminatórios",
                     "afirmacao 2"
                     ]
             }
