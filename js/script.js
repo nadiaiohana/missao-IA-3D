@@ -47,6 +47,11 @@ function mostraResultado(){
     botaoJogarNovamente.addEventListener("click", jogarNovamente);                             
 }
 
-function aleatorio (){}
-
+function jogarNovamente {
+    atual = 0;
+    historiaFinal = "";
+    caixaResultado.classList.remove("mostrar");
+    mostraPergunta();
+}
+    
 mostraPergunta();
