@@ -7,13 +7,26 @@ const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 const botaoJogarNovamente = document.querySelector(".novamente-btn");
+const botaoIniciar = document.querySelector(".iniciar-bnt");
+const telaInicial = document.querySelector(".tela-inicial");
 
 let atual = 0; 
 let perguntaAtual;
 let historiaFinal = "";
 
-function mostraPergunta() {
-    if(atual >= perguntas.length){
+botaoIniciar.addEventListener('click', iniciajogos);
+
+function inicia jogo() 
+    atual = 0;
+    historiafinal = "";
+    telaInicial.style.display = 'none';
+    caixaPerguntas.classList.remove(".mostrar");
+    caixaResultado.classList.remove("mostrar"); 
+    mostraResultado();
+}
+
+function mostraPerguntas() {
+    if(atual >= perguntas.lengt){
         mostraResultado();
         return;
     }
@@ -35,8 +48,13 @@ function mostraAlternativas(){
 function respostaSelecionada(opcaoSelecionada){
     const afirmacoes = opcaoSelecionada.afirmacao;
     historiaFinal += afirmacoes + " ";
-    atual++;
-    mostraPergunta();
+    if(opcaoSelecionada.proxima !== undefined) {
+      atual= opcaoSelecionada.proxima;
+    }else {    
+    mostraResultado();
+    return;
+    }
+    mostraPerguntas();
 }
 
 function mostraResultado(){
