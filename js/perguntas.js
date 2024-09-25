@@ -6,14 +6,14 @@ const perguntas = [
                 texto: "Sim, eu apoio o movimento racista",
                 afirmacao: [
                     "Vocẽ realmente já ouviu falar o que é racismo? A sua história e quantas milhares de pessoas foram prejudicadas e mortas? ",
-                    "afirmacao 2"
+                    "Não gostei da sua resposta!"
                     ]
             },
             {
                 texto: "Não, sou contra o movimento racista",
                 afirmacao: [
-                    " Que legal! concordamos que o  racismo não é uma coisa boa",
-                    "afirmacao 2"
+                    "Concordamos que o  racismo não é uma coisa boa",
+                    "Que legal concordo com você"
                     ]
             }           
             
@@ -26,14 +26,14 @@ const perguntas = [
                 texto:"Fortalece a autoestima das vitimas",
                 afirmacao: [
                     "Racismo enfraquece a autoestima, perpetuando sentimentos de inferioridade",
-                    "afirmacao 2"
+                    "É uma coisa muito ruim psicológicamente"
                     ]
             },
             {
                 texto: "Contribui para a exclusão social e marginalização de grupos minoridarios",
                 afirmacao: [
                     "Reforça a desigualdade e esteriótipos discriminatórios",
-                    "afirmacao 2"
+                    "Realmente a pessoa que sofre racismo tem sentimentos"
                     ]
             }
         ]
@@ -42,19 +42,19 @@ const perguntas = [
         enunciado: "O que caracteriza o racismo estrutural na sociedade?",
         alternativas: [
             {
-                texto:"Desigualdade raciais",
+                texto:"Conjuto de práticas, hábitos, situações e falas presentes no dia a dia da população que promove, mesmo sem inteção, o preconceito racial",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "Concordo com isso",
+                    "Essa é uma das principais características"
                     ]
             },
             {
-                texto:"Alternativa 2 da pergunta 3",
+                texto:"Racismo estrutal é caracterízado por admirar a pessoa independente de sua cor e classe social",
                 afirmacao: [
                     "afirmacao 1",
                     "afirmacao 2"
                     ]
-            }
+
             
         ]
     },
